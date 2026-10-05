@@ -157,7 +157,4 @@ Lưu ý: `--check` và `--judge` đều xóa và dựng lại graph. `--check` �
 - `report/img/kg_my_case.png` (Q-D): với người tự chọn là **Cái Quang Huy** (không phải Lê Minh Thành). Kết quả hiện `Case (2)`, cho thấy lỗi E3.
 
 ## Vấn đề gặp phải (không tính điểm)
-
-- Docker Desktop chưa mở ban đầu; đã khởi động và tạo container `neo4j-drug-kg`.
-- Khi điều khiển Chrome, một số thao tác bị hộp xác nhận quyền ("Claude in Chrome permission prompt") chặn và hết thời gian. Thử lại đúng thao tác đó thì chạy được; không có thao tác nào được bỏ qua quyền.
 - Kết quả LLM không hoàn toàn tất định. Cùng ontology gợi ý, graph recall là 0,83 ở một lần và 0,78 ở lần khác (Q6 thay đổi 0,33 → 0). Với ontology riêng, graph recall là 0,83 và 0,94. Số liệu trong báo cáo lấy từ các file kết quả cuối cùng.
